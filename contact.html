@@ -1,81 +1,100 @@
 <!DOCTYPE html>
-<html>
-<head> 
-    <link rel="stylesheet" href="assets/css/style.css"> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 
-    <title>Stuff</title> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    
+    <!--header begins--> 
+
 </head>
-
-<!--Body begins below--> 
-
 <body>
-        <div class="wrapper">
-            <div class="container">
-                <header>
-                    
-                    <div id="logo"> <h1>Carolina Ramirez</h1> 
-                    </div>
-                </header>
-        
-                <nav>
-                    <ul>
-                        <li>about</li>
-                        <li>portfolio</li>
-                        <li>contact</li>
-                    </ul>
-                </nav>
-            
-            </div>
-
-    <!--Contact Form begins below--> 
-
-    <div class= "container">
-         <div class="leftcolumn left">
-             <p>Contact</p>
-             <div id="contactform">
-                 <form action="action_page.php">
-                    <div class="fullname">
-                    <label for="fullname">Full Name</label>
-                    <input type="text" id="fullname" placeholder="Your name here">
-                    </div>
-
-                    <div class="email">
-                    <label for="Email">Email</label>
-                    <input type="text" id="Email" placeholder="Your email here">
-                    </div>
-                    <div class="message">
-                    <label for="message">Message</label>
-                    <textarea id="text" id="message" placeholder="Your message here"
-                    style="height:100px"></textarea>
-                    </div>
-
-                    <input type="submit" value="submit">
-
-                 </form>
-             </div>
-         </div>
-
-    <!--I need to add icons below--> 
-    <div class= "container">
-            <div class="rightcolumn right">
-                <p>Connect with me</p>
-   
-                <div id="smallersection">
-                    <ul>
-                       <li><img src="assets/images/linkedin.png"/ style="width:50px; margin-top:5px";></li>
-   
-                       <li><img src="assets/images/bloggr.png"/ style="width:50px; margin-top:5px"></li>
-                   </ul>
-   
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Carolina Ramirez</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                  </ul>
+                  <span class="navbar-text">
+                  </span>
                 </div>
-            </div>   
-       </div>
+              </nav>
+
+<!--header ends here-->
+
+<!--About me section below--> 
+
+<!--Column 1 below--> 
+
+<br>
+
+<div class= "container">
+    <div class ="row">
+        <div class ="col-md-8">
+        <div class="jumbotron">
+                <h1 class="display-4">About Me</h1>
+                <img src="./assets/carolinaimg.png" alt="image of carolina";>
+                <p class="lead" style="width: 80%">Carolina Ramirez is a 
+                  project manager at the largest immigrant youth 
+                  network in the US. She is part of the January cohort at the UT Coding Bootcamp.</p>
+                <hr class="my-4"> </div>
+        </div>   
+
+        <!--Column 2 below--> 
+
+        <div class ="col-md-4">
+
+            <div class="w-40 p-3" style="background-color: #eee;">
+    
+              <div class="card">
+    
+              <div class="card-body">
+                <h5 class="card-title">Connect with me</h5>
+                <a href="https://github.com/rmzcaro" class="btn btn-primary" >
+                <i class="fab fa-github-square"></i>
+              
+                <a href="https://www.linkedin.com/in/carolinaramirez01/" class="btn btn-primary">
+                  <i class="fab fa-linkedin"></i>
+    
+                <a href="add link here" class="btn btn-primary">
+                  <i class="far fa-envelope"></i></a>
+    
+              </div>
+              </div> 
+            </div>
+        </div>
+    </div>
+        
 </div>
-
-    <footer><p>Copyright 2017 Carolina</p></footer>
-
 </div>
 
 </body>
 
+<!--footer 1 below-->
+<div class="container-fluid">
+<div class="row text-center";>
+
+    <div class="col-md-12">
+        <div class="bg-info text-white">Copyright Carolina Ramirez 2017</div>
+</div>
+</div>
+
+</div>
 </html>
